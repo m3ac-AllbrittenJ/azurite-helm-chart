@@ -37,9 +37,9 @@ config:
         public: ""
         private: ""
   queues:
-    enabled: true
+    enabled: false
   tables:
-    enabled: true
+    enabled: false
 
 statefulset:
   affinity: {}
